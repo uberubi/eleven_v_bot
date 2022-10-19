@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
-    "prod": "ts-node --transpile-only",
+    "dev": "nodemon",
+    "start": "ts-node --transpile-only",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
