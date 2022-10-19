@@ -3,6 +3,7 @@ import tgAPI from "node-telegram-bot-api";
 import { COMMANDS } from "./constants/commands";
 import { SUITS } from "./constants/suits";
 
+console.log('APP STARTED')
 const token = "5732846403:AAGlCzP9oqtjM9ntjXmqqcd8Ls9YxcO66KY";
 
 const bot = new tgAPI(token, { polling: true });
