@@ -6,7 +6,6 @@ import { SUITS } from "./constants/suits";
 const token = "5732846403:AAGlCzP9oqtjM9ntjXmqqcd8Ls9YxcO66KY";
 
 const bot = new tgAPI(token, { polling: true });
-
 bot.on("message", (msg) => {
   const { text, chat } = msg;
   if (text === COMMANDS.HELP) {
