@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "prod": "node index.js",
+    "prod": "ts-node --transpile-only",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
