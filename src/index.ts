@@ -2,7 +2,6 @@ import { generateRandomNumber } from "./utils/generateRandomNumber";
 import tgAPI from "node-telegram-bot-api";
 import { COMMANDS } from "./constants/commands";
 import { SUITS } from "./constants/suits";
-import { PHRASE } from "./constants/phrases";
 
 const token = "5732846403:AAGlCzP9oqtjM9ntjXmqqcd8Ls9YxcO66KY";
 
